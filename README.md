@@ -1,1 +1,1 @@
-![My GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Sungchunn&theme=github-dark&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&hide_border=true)
+![My GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=transparent&hide_border=true&bg_color=00000000)
