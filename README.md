@@ -1,3 +1,5 @@
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_USERNAME]&theme=default)
+
 <div align="center">
   <picture>
     <!-- Dark mode version -->
