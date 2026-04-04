@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=tokyonight&hide_border=true&background=0D1117">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=default">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sungchunn&layout=compact&theme=default" />
+  </picture>
+</p>
+
 ## 🚀 What I'm Building
 
 ### [AI Resume Tailor](https://www.re-zoo-me.com) — Land More Interviews with AI
@@ -18,10 +26,4 @@ A full-stack webapp that tailors your resume to any job description and scores i
 - One-click PDF export via WeasyPrint
 - Split-screen workspace with resizable panels
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=tokyonight&hide_border=true&background=0D1117">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=default">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sungchunn&layout=compact&theme=default" />
-  </picture>
-</p>
+
