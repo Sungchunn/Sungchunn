@@ -2,8 +2,8 @@ name: Update Profile README
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs every 6 hours
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 */6 * * *'
+  workflow_dispatch: 
 
 jobs:
   build:
@@ -16,5 +16,6 @@ jobs:
         uses: umutphp/github-action-dynamic-profile-page@v1.3.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # This points to the markers you put in your template
-          COMMIT_MESSAGE: "Update README with latest activity"
+          # Tells the action to read from the template and write to the real README
+          README_TEMPLATE: "README.md.template"
+          README_FILE: "README.md"
