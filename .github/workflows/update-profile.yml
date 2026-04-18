@@ -16,6 +16,5 @@ jobs:
         uses: umutphp/github-action-dynamic-profile-page@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Tells the action to read from the template and write to the real README
-          README_TEMPLATE: "README.md.template"
-          README_FILE: "README.md"
+          # The correct parameter name for this action is 'TEMPLATE'
+          TEMPLATE: "README.md.template"
