@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Dynamic README
-        uses: umutphp/github-action-dynamic-profile-page@v1.3.0
+        uses: umutphp/github-action-dynamic-profile-page@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Tells the action to read from the template and write to the real README
