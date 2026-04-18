@@ -14,6 +14,8 @@ A full-stack webapp that tailors your resume to any job description and scores i
 
 **How it works:** Pick a job from the built-in job board or paste any job description → AI analyzes keyword gaps, role alignment, and formatting.
 
+🔗 **Try it live:** [re-zoo-me.com](https://www.re-zoo-me.com)
+
 **Built with:**
 `Next.js` `TypeScript` `FastAPI` `Python` `MongoDB` `PostgreSQL` `Redis`
 
