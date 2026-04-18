@@ -17,11 +17,6 @@ A full-stack webapp that tailors your resume to any job description and scores i
 **Built with:**
 `Next.js` `TypeScript` `FastAPI` `Python` `MongoDB` `PostgreSQL` `Redis`
 
----
-
-## ⚡ Recent Activity
----
-
 **Key features of AI Resume Tailor:**
 - Block-based resume editor with drag-to-reorder
 - Multi-stage ATS scoring pipeline
