@@ -15,6 +15,9 @@ jobs:
       - name: Generate Dynamic README
         uses: umutphp/github-action-dynamic-profile-page@master
         with:
+          # This action expects these exact names:
+          readme-file: "README.md.template"
+          github-username: "sungchunn"
+        env:
+          # It wants the token in the environment, not the 'with' section
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # The correct parameter name for this action is 'TEMPLATE'
-          TEMPLATE: "README.md.template"
