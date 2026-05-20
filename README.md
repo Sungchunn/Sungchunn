@@ -8,7 +8,7 @@
 
 ## 🚀 What I'm Building
 
-### [AI Resume Tailor](https://www.re-zoo-me.com) — Land More Interviews with AI
+### [AI Resume Tailor](https://github.com/Sungchunn/AI-Resume-Tailor) — Land More Interviews with AI
 
 A full-stack webapp that tailors your resume to any job description and scores it against real ATS systems.
 
