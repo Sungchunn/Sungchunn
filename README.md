@@ -6,6 +6,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="./profile-3d-contrib/profile-season-dual.svg" alt="3D contribution calendar" />
+</p>
+
 ## 🚀 What I'm Building
 
 ### [AI Resume Tailor](https://github.com/Sungchunn/AI-Resume-Tailor) — Land More Interviews with AI
