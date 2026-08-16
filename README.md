@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-season-dual.svg" alt="3D contribution calendar" />
+  <img src="./profile-3d-contrib/profile-language-dual.svg" alt="3D contribution calendar, each day coloured by the language written" />
 </p>
 
 ## 🚀 What I'm Building

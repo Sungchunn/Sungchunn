@@ -17,11 +17,27 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-settings.json
+
+      # Colours each day by the language written that day and rebuilds the pie
+      # from the same numbers. Needs PROFILE_PAT (a classic PAT with `repo`) to
+      # see private repos — GITHUB_TOKEN only reaches this one repo, which would
+      # leave most of the calendar uncoloured.
+      - name: Colour calendar by language
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_PAT || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: node .github/scripts/language-colors.mjs profile-3d-contrib/profile-language-dual.svg
+
       - name: Commit & Push
         run: |
           git config user.name github-actions

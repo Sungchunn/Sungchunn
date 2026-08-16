@@ -1,5 +1,25 @@
 [
   {
+    "type": "normal",
+    "fileName": "profile-language-dual.svg",
+    "growingAnimation": true,
+    "backgroundColor": "#ffffff",
+    "foregroundColor": "#24292f",
+    "strongColor": "#0969da",
+    "weakColor": "#6a6f78",
+    "radarColor": "#8250df",
+    "contribColors": ["#ebedf0", "#c6e48b", "#7bc96f", "#239a3b", "#196127"],
+    "darkMode": {
+      "type": "normal",
+      "backgroundColor": "#0d1117",
+      "foregroundColor": "#c9d1d9",
+      "strongColor": "#ffc855",
+      "weakColor": "#8b949e",
+      "radarColor": "#a371f7",
+      "contribColors": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+    }
+  },
+  {
     "type": "season",
     "fileName": "profile-season-dual.svg",
     "growingAnimation": true,
@@ -23,32 +43,6 @@
       "contribColors2": ["#161b22", "#14532d", "#16a34a", "#4ade80", "#86efac"],
       "contribColors3": ["#161b22", "#7c2d12", "#c2410c", "#f97316", "#fdba74"],
       "contribColors4": ["#161b22", "#0c4a6e", "#0284c7", "#38bdf8", "#7dd3fc"]
-    }
-  },
-  {
-    "type": "rainbow",
-    "fileName": "profile-rainbow-dual.svg",
-    "growingAnimation": true,
-    "backgroundColor": "#ffffff",
-    "foregroundColor": "#24292f",
-    "strongColor": "#0969da",
-    "weakColor": "#8b949e",
-    "radarColor": "#8250df",
-    "saturation": "65%",
-    "contribLightness": ["93%", "76%", "63%", "51%", "39%"],
-    "duration": "12s",
-    "hueRatio": -7,
-    "darkMode": {
-      "type": "rainbow",
-      "backgroundColor": "#0d1117",
-      "foregroundColor": "#c9d1d9",
-      "strongColor": "#ffc855",
-      "weakColor": "#8b949e",
-      "radarColor": "#a371f7",
-      "saturation": "60%",
-      "contribLightness": ["12%", "30%", "40%", "50%", "62%"],
-      "duration": "12s",
-      "hueRatio": -7
     }
   }
 ]
