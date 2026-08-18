@@ -1,12 +1,4 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=tokyonight&hide_border=true&background=0D1117">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sungchunn&theme=default">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sungchunn&layout=compact&theme=default" />
-  </picture>
-</p>
-
-<p align="center">
   <img src="./profile-3d-contrib/profile-season-dual.svg" alt="3D contribution calendar" />
 </p>
 
